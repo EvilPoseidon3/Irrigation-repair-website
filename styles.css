@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+
+    
+}
+
+div{
+    display: flex;
+    /* margin: 10px; */
+    /* background-color: rgb(39, 28, 255); */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+    .titleblock {
+        display:flex;
+        flex-direction:column;
+        background-color: rgb(0, 88, 183);
+    }
+
+        .header-top {
+            display: flex;
+            
+            /* border: 1pxS solid black; */
+            justify-content: space-between;
+            padding:0 15px;
+            height: 100px;
+            align-items: center
+  
+        }
+
+            .header-top > h1 {
+                justify-content: center;
+                align-items: center;
+            }
+            .headerlinks {
+                /* border: 1px solid black; */
+                display: inline-flex;
+                align-items: center;
+                border-radius: 10px;
+                flex: 0 1 auto;
+                
+            }
+                a.upperlinks {
+                    padding: 8px;
+                    flex: 1 0 0;
+
+                }
+
+        .header-body {
+            display: flex;
+            margin: 0px 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding:20px;
+            background-color: whitesmoke;
+        }
+        
+            .header-body > div {
+                display: flex;
+                flex-direction: column;
+                max-width: 30vh ;
+                align-items: center;
+                justify-content: center;
+                padding-right: 10%;
+            
+            }
+
+            .header-body > div > h3 {
+                font-size: 25px;
+                text-align: center;
+                margin-bottom: 0;
+                
+
+            }
+
+            .header-body > div > p {
+                text-align: center;
+                font-size: 15px;
+                margin-bottom: 10px
+                
+            }
+
+            .header-body > div > button {
+                border-radius: 10px;
+                border-style: solid;
+                border-color: white;
+                padding: 6px;
+                background-color: rgb(105, 170, 255);
+                width: 10em;
+                text-align: center;
+            }
+
+            .header-body > img {
+                width: 300px;
+                height: auto;
+                box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.385);
+                border-radius: 25px;
+                margin: 20px;
+            }
+
+    .informationblock {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .informationblock > div > h3 {
+            text-align: center;
+            padding: 10px;
+            font-size: 25px;
+        }
+
+        .informationblock > .servicesprovided {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+            .informationblock > .servicesprovided > div {
+                display: flex;
+                /* justify-content: space-around; */
+                flex-direction: column;
+                text-align: center;
+                max-width: 200px;
+                height: auto;
+            }
